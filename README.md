@@ -15,7 +15,7 @@ The project demonstrates practical skills in **data preprocessing, dimensionalit
 ## Key Methodologies Implemented
 
 ### 1. Handling Imbalanced Classes
-The raw dataset contained 609 records with a severe class imbalance (approximately 88% to 12% ratio). To prevent the model from favoring the majority class, dynamic class weighting (`class_weight='balanced'`) was implemented across all algorithms.
+The raw dataset contained 609 records with a severe class imbalance (approximately 88% to 12% ratio). To prevent the model from favoring the majority class, dynamic class weighting (`class_weight='balanced'`) was implemented across algorithms.
 
 ### 2. Dimensionality Reduction & Feature Selection
 The initial dataset featured tens of thousands of variables (60,000+ features). To eliminate statistical noise and prevent overfitting, I applied the Mutual Information algorithm to extract the top 100 most critical features with the highest predictive power.
